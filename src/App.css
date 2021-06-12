@@ -3,18 +3,21 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 35vmin;
   pointer-events: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-width: 320px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(21, 12, 32);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +25,22 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-txt {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Antonio';
+    background: -webkit-linear-gradient(#F2913D,#F26457);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* opacity: 0; */
+    transition: all .5s ease;
 }
 
 .App-link {
